@@ -4,9 +4,9 @@ name: Github dkd-auto-coin
 on:
     push:
         branches:
-            - master
+            - main
     schedule:
-        - cron: '0/20 7-18 * * *'
+        - cron: '0/22 7-20 * * *'
 jobs:
     build:
         runs-on: ubuntu-latest
